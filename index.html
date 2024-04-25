@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Calculadora">
+        <meta name="author" content="Walter">
+        <meta name="robots" content="index">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header>
+        <h1>CALCULADORA</h1>
+        </header>
+        <div class="container">
+            <form name="Formulario" action="index.html" method="POST">
+                <label for="Numero1">Numero 1</label>
+                <input type="text" id="a" placeholder="Ingrese un número" name="a">
+                <br>
+                <label for="Numero1">Numero 2</label>
+                <input type="text" id="b" placeholder="Ingrese un número" name="b">
+                <br>
+                <input type="button" name="" value="Sumar" onclick="Sumar()">
+                <input type="button" name="" value="Restar" onclick="Resta()">
+                <input type="button" name="" value="Multiplicar" onclick="Multiplica()">
+                <input type="button" name="" value="Dividir" onclick="Divide()">
+                <input  id=L type="button" name="" value="Limpiar" onclick="Reset()">
+                <br>
+                <label for="Resultado" id="resultado">Resultado</label>
+                <input type="text" id="c" placeholder="Aqui se imprime el resultado">
+                <br>
+                <input id=S type="button" name="" value="SALIR" onclick="Salida()">
+            </form>
+        </div>
+        <script type="text/JavaScript" src="JavaScript.js"> </script>
+    </body>
+</html>

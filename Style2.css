@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: center; 
+} 
+
+input {
+    padding: 20px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px 10px 0;
+}
+
+input:hover {
+    background-color: darkgreen;
+}
